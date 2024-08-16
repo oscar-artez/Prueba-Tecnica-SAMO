@@ -25,11 +25,14 @@ import { SidebarLayout } from '@/components/sidebar-layout'
 import { getEvents } from '@/data'
 import {
   ArrowRightStartOnRectangleIcon,
+  BriefcaseIcon,
   ChevronDownIcon,
   ChevronUpIcon,
   Cog8ToothIcon,
   LightBulbIcon,
+  PencilIcon,
   PlusIcon,
+  QueueListIcon,
   ShieldCheckIcon,
   UserCircleIcon,
 } from '@heroicons/react/16/solid'
@@ -126,36 +129,43 @@ export function ApplicationLayout({
 
           <SidebarBody>
             <SidebarSection>
-              <SidebarItem href="/" current={pathname === '/'}>
-                <HomeIcon />
-                <SidebarLabel>Home</SidebarLabel>
-              </SidebarItem>
-              <SidebarItem href="/events" current={pathname.startsWith('/events')}>
-                <Square2StackIcon />
-                <SidebarLabel>Events</SidebarLabel>
-              </SidebarItem>
-              <SidebarItem href="/orders" current={pathname.startsWith('/orders')}>
-                <TicketIcon />
-                <SidebarLabel>Orders</SidebarLabel>
-              </SidebarItem>
-              <SidebarItem href="/settings" current={pathname.startsWith('/settings')}>
-                <Cog6ToothIcon />
-                <SidebarLabel>Settings</SidebarLabel>
-              </SidebarItem>
+            <Dropdown>
+              <DropdownButton as={SidebarItem}>
+                <BriefcaseIcon />
+                <SidebarLabel>Negocios</SidebarLabel>
+                <ChevronDownIcon />
+              </DropdownButton>
+              <DropdownMenu className="min-w-80 lg:min-w-64 " anchor="bottom start">
+                <DropdownItem href="businessList">
+                  <QueueListIcon />
+                  <DropdownLabel>Lista de Negocios</DropdownLabel>
+                </DropdownItem>
+                <DropdownDivider />
+                <DropdownItem href="/createBusiness">
+                <PlusIcon />
+                <DropdownLabel>Agregar Negocio</DropdownLabel>
+                </DropdownItem>
+                <DropdownDivider />
+                <DropdownItem href="/editBusiness">
+                  <PencilIcon />
+                  <DropdownLabel>Editar Negocio</DropdownLabel>
+                </DropdownItem>
+              </DropdownMenu>
+            </Dropdown>
             </SidebarSection>
 
-            <SidebarSection className="max-lg:hidden">
+            {/* <SidebarSection className="max-lg:hidden">
               <SidebarHeading>Upcoming Events</SidebarHeading>
               {events.map((event) => (
                 <SidebarItem key={event.id} href={event.url}>
                   {event.name}
                 </SidebarItem>
               ))}
-            </SidebarSection>
+            </SidebarSection> */}
 
             <SidebarSpacer />
 
-            <SidebarSection>
+            {/* <SidebarSection>
               <SidebarItem href="#">
                 <QuestionMarkCircleIcon />
                 <SidebarLabel>Support</SidebarLabel>
@@ -164,7 +174,7 @@ export function ApplicationLayout({
                 <SparklesIcon />
                 <SidebarLabel>Changelog</SidebarLabel>
               </SidebarItem>
-            </SidebarSection>
+            </SidebarSection> */}
           </SidebarBody>
 
           <SidebarFooter className="max-lg:hidden">
