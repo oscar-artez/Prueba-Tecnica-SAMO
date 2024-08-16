@@ -1,0 +1,162 @@
+[
+    {
+      "name": "Tech Solutions",
+      "contactInfo": {
+        "phone": "+1 234 567 8901",
+        "email": "contact@techsolutions.com"
+      },
+      "website": "https://www.techsolutions.com",
+      "services": ["Desarrollo Web", "Soporte Técnico", "Consultoría IT", "Desarrollo de Software"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?tech",
+        "https://source.unsplash.com/random/800x600?office",
+        "https://source.unsplash.com/random/800x600?code",
+        "https://source.unsplash.com/random/800x600?computer",
+        "https://source.unsplash.com/random/800x600?meeting"
+      ]
+    },
+    {
+      "name": "Green Garden Landscaping",
+      "contactInfo": {
+        "phone": "+1 987 654 3210",
+        "email": "info@greengarden.com"
+      },
+      "website": "https://www.greengarden.com",
+      "services": ["Diseño de Jardines", "Mantenimiento de Áreas Verdes", "Instalación de Sistemas de Riego"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?garden",
+        "https://source.unsplash.com/random/800x600?landscape",
+        "https://source.unsplash.com/random/800x600?plants",
+        "https://source.unsplash.com/random/800x600?lawn",
+        "https://source.unsplash.com/random/800x600?flowers"
+      ]
+    },
+    {
+      "name": "Fresh Bites Bakery",
+      "contactInfo": {
+        "phone": "+1 456 789 0123",
+        "email": "orders@freshbites.com"
+      },
+      "website": "https://www.freshbites.com",
+      "services": ["Pasteles Personalizados", "Repostería", "Delivery", "Catering"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?bakery",
+        "https://source.unsplash.com/random/800x600?cake",
+        "https://source.unsplash.com/random/800x600?cookies",
+        "https://source.unsplash.com/random/800x600?bread",
+        "https://source.unsplash.com/random/800x600?dessert"
+      ]
+    },
+    {
+      "name": "Urban Fitness",
+      "contactInfo": {
+        "phone": "+1 321 654 0987",
+        "email": "support@urbanfitness.com"
+      },
+      "website": "https://www.urbanfitness.com",
+      "services": ["Gimnasio", "Entrenamiento Personalizado", "Clases de Yoga", "Nutrición"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?gym",
+        "https://source.unsplash.com/random/800x600?fitness",
+        "https://source.unsplash.com/random/800x600?yoga",
+        "https://source.unsplash.com/random/800x600?weights",
+        "https://source.unsplash.com/random/800x600?training"
+      ]
+    },
+    {
+      "name": "Digital Marketing Pro",
+      "contactInfo": {
+        "phone": "+1 876 543 2109",
+        "email": "hello@dmpro.com"
+      },
+      "website": "https://www.dmpro.com",
+      "services": ["SEO", "Marketing en Redes Sociales", "Publicidad Online", "Email Marketing", "Gestión de Contenidos"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?marketing",
+        "https://source.unsplash.com/random/800x600?seo",
+        "https://source.unsplash.com/random/800x600?advertising",
+        "https://source.unsplash.com/random/800x600?socialmedia",
+        "https://source.unsplash.com/random/800x600?content"
+      ]
+    },
+    {
+      "name": "Healthy Life Clinic",
+      "contactInfo": {
+        "phone": "+1 789 012 3456",
+        "email": "contact@healthylifeclinic.com"
+      },
+      "website": "https://www.healthylifeclinic.com",
+      "services": ["Consultas Médicas", "Exámenes de Laboratorio", "Fisioterapia", "Nutrición", "Terapias Alternativas"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?clinic",
+        "https://source.unsplash.com/random/800x600?doctor",
+        "https://source.unsplash.com/random/800x600?medical",
+        "https://source.unsplash.com/random/800x600?hospital",
+        "https://source.unsplash.com/random/800x600?health"
+      ]
+    },
+    {
+      "name": "Blue Horizon Travel",
+      "contactInfo": {
+        "phone": "+1 543 210 6789",
+        "email": "support@bluehorizon.com"
+      },
+      "website": "https://www.bluehorizon.com",
+      "services": ["Paquetes Turísticos", "Reservas de Hoteles", "Tours Guiados", "Asistencia de Viaje"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?travel",
+        "https://source.unsplash.com/random/800x600?beach",
+        "https://source.unsplash.com/random/800x600?tourism",
+        "https://source.unsplash.com/random/800x600?adventure",
+        "https://source.unsplash.com/random/800x600?vacation"
+      ]
+    },
+    {
+      "name": "Modern Art Gallery",
+      "contactInfo": {
+        "phone": "+1 098 765 4321",
+        "email": "info@modernart.com"
+      },
+      "website": "https://www.modernartgallery.com",
+      "services": ["Exposiciones de Arte", "Visitas Guiadas", "Venta de Obras", "Clases de Arte"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?art",
+        "https://source.unsplash.com/random/800x600?gallery",
+        "https://source.unsplash.com/random/800x600?painting",
+        "https://source.unsplash.com/random/800x600?sculpture",
+        "https://source.unsplash.com/random/800x600?museum"
+      ]
+    },
+    {
+      "name": "Gourmet Delights",
+      "contactInfo": {
+        "phone": "+1 654 321 0987",
+        "email": "reservations@gourmetdelights.com"
+      },
+      "website": "https://www.gourmetdelights.com",
+      "services": ["Restaurante", "Catering", "Eventos Privados", "Chef a Domicilio"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?restaurant",
+        "https://source.unsplash.com/random/800x600?food",
+        "https://source.unsplash.com/random/800x600?gourmet",
+        "https://source.unsplash.com/random/800x600?dining",
+        "https://source.unsplash.com/random/800x600?cuisine"
+      ]
+    },
+    {
+      "name": "Pet Paradise",
+      "contactInfo": {
+        "phone": "+1 432 109 8765",
+        "email": "hello@petparadise.com"
+      },
+      "website": "https://www.petparadise.com",
+      "services": ["Grooming", "Adiestramiento", "Guardería", "Consultas Veterinarias", "Tienda de Mascotas"],
+      "photoCarousel": [
+        "https://source.unsplash.com/random/800x600?pet",
+        "https://source.unsplash.com/random/800x600?dog",
+        "https://source.unsplash.com/random/800x600?veterinary",
+        "https://source.unsplash.com/random/800x600?grooming"
+      ]
+    }
+  ]
+  
